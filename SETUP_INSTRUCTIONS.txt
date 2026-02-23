@@ -1,0 +1,120 @@
+═══════════════════════════════════════════════════════════════
+   UNI-FIND PROJECT - SETUP INSTRUCTIONS
+═══════════════════════════════════════════════════════════════
+
+📁 FOLDER STRUCTURE
+═══════════════════════════════════════════════════════════════
+
+unifind-project/
+│
+├── index.html          (Main homepage - Marketplace & Lost/Found)
+├── profile.html        (User profile page)
+├── admin.html          (Admin panel)
+│
+├── css/
+│   ├── style.css       (Main styles)
+│   ├── profile.css     (Profile page styles)
+│   └── admin.css       (Admin panel styles)
+│
+└── js/
+    ├── app.js          (Main application logic)
+    ├── auth.js         (Authentication module)
+    ├── admin.js        (Admin panel functionality)
+    └── profile.js      (Profile page functionality)
+
+
+🚀 HOW TO RUN THE WEBSITE
+═══════════════════════════════════════════════════════════════
+
+METHOD 1: SIMPLE (Just open in browser)
+───────────────────────────────────────────────────────────────
+1. Extract the ZIP file to any folder on your computer
+2. Navigate to the 'unifind-project' folder
+3. Double-click on 'index.html' to open it in your browser
+4. That's it! The website should now display properly
+
+⚠️ NOTE: Some features (like posting items) require a backend API
+which is not included in this frontend-only version.
+
+
+METHOD 2: USING A LOCAL WEB SERVER (Recommended for development)
+───────────────────────────────────────────────────────────────
+
+Option A - Python (if you have Python installed):
+   1. Open terminal/command prompt
+   2. Navigate to the unifind-project folder:
+      cd path/to/unifind-project
+   3. Run: python -m http.server 8000
+   4. Open browser and go to: http://localhost:8000
+
+Option B - Node.js (if you have Node.js installed):
+   1. Install http-server globally: npm install -g http-server
+   2. Navigate to the unifind-project folder
+   3. Run: http-server -p 8000
+   4. Open browser and go to: http://localhost:8000
+
+Option C - VS Code (if you use VS Code):
+   1. Install "Live Server" extension
+   2. Right-click on index.html
+   3. Select "Open with Live Server"
+
+
+📄 PAGES INCLUDED
+═══════════════════════════════════════════════════════════════
+
+✅ index.html       - Main page with Marketplace and Lost & Found
+✅ profile.html     - User profile page (requires login)
+✅ admin.html       - Admin panel (requires admin login)
+
+
+🔧 CURRENT STATUS
+═══════════════════════════════════════════════════════════════
+
+✅ WORKING:
+   - Complete responsive design
+   - All CSS styling
+   - Navigation between sections
+   - Modal popups for forms
+   - Search and filter UI
+   - All page layouts
+
+⚠️ REQUIRES BACKEND API:
+   - User authentication (login/signup)
+   - Posting new items
+   - Viewing item details from database
+   - Admin panel functionality
+   - Profile management
+
+The frontend is complete and fully functional. To make it fully
+operational, you'll need to implement the backend API following
+the backend-api-guide.md document.
+
+
+🔗 IMPORTANT NOTES
+═══════════════════════════════════════════════════════════════
+
+1. The CSS and JavaScript files MUST be in the correct folders:
+   - CSS files in: css/ folder
+   - JS files in: js/ folder
+
+2. If you move files around, update the paths in HTML files
+
+3. All external resources (Font Awesome, Google Fonts) are loaded
+   from CDNs and require internet connection
+
+4. For backend setup, refer to the backend-api-guide.md file
+
+
+📧 SUPPORT
+═══════════════════════════════════════════════════════════════
+
+If you encounter any issues:
+1. Check that all files are in the correct folders
+2. Make sure you're opening index.html (not other files)
+3. Check browser console for any errors (F12 key)
+4. Ensure you have internet connection for external resources
+
+
+═══════════════════════════════════════════════════════════════
+              Made with ❤️ for Kathmandu University
+═══════════════════════════════════════════════════════════════
